@@ -1,6 +1,5 @@
 # Curtis Bday Year 2
-Another year, another birthday gift for Curtis that's on my Github.
-As close to a quiz you can get with using only HTMl/CSS
+As close to a quiz you can get with using only HTML/CSS
 
 Served with Amazon ECS, using the nginx image from Docker to serve
 the static page. 
