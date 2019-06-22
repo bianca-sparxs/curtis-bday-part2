@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap');
+body {
+    background: #e7e6f7;
+    font-family: 'Merriweather', serif;
+    text-transform: lowercase;
+}
+
+body a{
+    
+    text-decoration: none;
+    color: black; 
+}
+
+h1 {
+    color: 827081;
+    font-weight: 900;
+    margin-bottom: 5px;
+    line-height: 1.7rem;
+}
+
+h2 {
+    font-size: 17px;
+    margin: 0 0 4.2rem;
+    font-weight: 400;
+    color: #987284;
+}
+
+section {
+    padding: 7vw;
+    display: flex;
+}
+
+#site-container {
+    padding: 2vw;
+}
+
+/* Landing Section  */
+.intro {
+    margin: 0 auto;
+    max-width: 777px;
+    font-size: 3.5rem;
+    line-height: 1.4em;
+}
+
+.header { 
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.highlight{
+    /* transition: color 300ms cubic-bezier(0.25,0.1,0.25,1); */
+    transition: background-color 300ms ease-out;
+    background-color: #e3d0d8;
+    padding: 4px;
+}
+
+.highlight:hover {
+    background-color: #a3a380;
+    /* color: white; */
+}
+
+/* Quiz Part */
+#the-questions {
+    justify-content: center;
+    width:700px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hover-q {
+    background-color: #c6d2ed;
+    height: 123px;
+    padding: 20px;
+    margin-bottom:5vw;
+    
+ 
+    
+    /* height:auto; */
+    overflow: hidden;
+    -moz-transition: max-height 0.4ms ease-out; 
+    -webkit-transition: max-height 0.4ms ease-out; 
+    transition: height 0.4ms ease-out; 
+   
+    
+}
+
+.hover-q:hover {
+    height: 100%;
+}
+
+.question {
+    margin-bottom:5vw;
+}
+
+
+#title {
+    margin: 45px 45px 0 ;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+/* Click Me Question Labels */
+#clickControl {
+    display: none;
+    height: 2px;
+    overflow: hidden;
+}
+#clickControl:checked + label {
+    height: 200px;
+    color: red;
+}
+
+
+#clickControl2 {
+    display: none;
+    height: 2px;
+    overflow: hidden;
+}
+#clickControl2:checked + label {
+    height: 200px;
+    color: green;
+}
+
+#clickControl3 {
+    display: none;
+    height: 2px;
+    overflow: hidden;
+}
+#clickControl3:checked + label {
+    height: 200px;
+    color: red;
+}
+
+#clickControl4 {
+    display: none;
+    height: 2px;
+    overflow: hidden;
+}
+#clickControl4:checked + label {
+    height: 200px;
+    color: red;
+}
+
+#clickControl5 {
+    display: none;
+    height: 2px;
+    overflow: hidden;
+}
+#clickControl5:checked + label {
+    height: 200px;
+    color: green;
+}
+
+#clickControl6 {
+    display: none;
+    height: 2px;
+    overflow: hidden;
+}
+#clickControl6:checked + label {
+    height: 200px;
+    color: salmon;
+}
+
+
+.answer {
+    text-transform: capitalize;
+}
+
+/* Explaining What I Did */
+
+#how {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.col-1{
+    font-weight: 900;
+    font-size: 4rem;
+    margin: -3vw;
+    /* max-width: 300px; */
+
+}
+
+.col-2 {
+    max-width: 550px;
+    font-size: 1.5rem;
+    line-height: 3vw;
+    font-weight: 400;
+    padding-top: 17vw;
+}
